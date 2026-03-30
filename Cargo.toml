@@ -28,7 +28,7 @@ blue-noise = []
 serde = ["dep:serde"]
 
 [dependencies]
-common_traits = { version = "0.12", default-features = false }
+common_traits = { version = "0.12.1", default-features = false }
 common_traits_f16 = { git = "https://github.com/virtualritz/common_traits.git", package = "common_traits", default-features = false, features = ["nightly_f16"], optional = true }
 enum_dispatch = "0.3"
 libm = { version = "0.2", optional = true }
